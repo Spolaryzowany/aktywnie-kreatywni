@@ -1,0 +1,108 @@
+//Główny slider
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    header .container nav{
+        height: 110px;
+        text-align: center;
+
+        .logo, ul{
+            float: unset;
+        }
+
+        .logo{
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    header .container nav{
+        height: 50px;
+
+        &.scrolled{
+            ul li::after, ul li i{
+                display: none;
+            }
+        }
+
+        ul{
+            display: none;
+        }
+
+        .logo{
+            float: unset;
+            margin: auto;
+        }
+    }
+
+    header .container .content-container .content .content-background{
+        .next{
+            text-align: center;
+
+            button{
+                display: block;
+                margin: 0 auto 20px;
+            }
+            
+            .read-more{
+                position: unset;
+            }
+        }
+    }
+}
+
+//Misja
+
+@media screen and (max-width: 1300px){
+    #mission{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mission .right-side{
+        width: 100%;
+
+        h2{
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        p:last-child{
+            margin-bottom: 30px;
+        }
+    }
+
+    #mission .left-side{
+        width: 100%;
+    }
+}
+
+//Cele
+
+@media screen and (min-width: 1051px) and (max-width: 1200px){
+    #target .container .goals{
+        width: 1050px;
+        .goal{
+            margin: 50px 0;
+        }
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1050px){
+    #target .container .goals{
+        width: 700px;
+        .goal{
+            margin: 50px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 700px){
+    #target .container .goals{
+        width: 350px;
+        .goal{
+            margin: 50px 0;
+        }
+    }
+}
