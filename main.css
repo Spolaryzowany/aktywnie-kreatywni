@@ -153,6 +153,7 @@ header {
     #mission .right-side h2 {
       font-weight: bold;
       padding: 70px 0 20px;
+      text-align: center;
       text-transform: uppercase; }
     #mission .right-side p {
       width: 600px;
@@ -200,7 +201,7 @@ header {
         font-size: 16px; }
 
 #about {
-  height: 100%; }
+  min-height: 100%; }
   #about h1 {
     text-transform: uppercase;
     text-align: center;
@@ -386,7 +387,11 @@ footer {
       margin: 0 auto 20px; }
     header .container .content-container .content .content-background .next .read-more {
       position: unset; } }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 480px) {
+  header .container .content-container .content .content-background .text-content h1 {
+    width: 320px;
+    font-size: 36px; } }
+@media screen and (min-width: 651px) and (max-width: 1300px) {
   #mission {
     width: 100%;
     flex-direction: column;
@@ -402,6 +407,34 @@ footer {
 
   #mission .left-side {
     width: 100%; } }
+@media screen and (max-width: 650px) {
+  #mission {
+    width: 100%;
+    flex-direction: column;
+    align-items: center; }
+
+  #mission .right-side {
+    width: 100%; }
+    #mission .right-side h2 {
+      padding-top: 40px;
+      text-align: center; }
+    #mission .right-side p {
+      width: 100%; }
+    #mission .right-side p:last-child {
+      margin-bottom: 30px; }
+
+  #mission .left-side {
+    width: 100%; }
+    #mission .left-side .motto {
+      width: 100%; }
+    #mission .left-side .icon img {
+      width: 100%; } }
+@media screen and (min-width: 376px) and (max-width: 650px) {
+  #mission .left-side .motto h1 {
+    font-size: 34px; } }
+@media screen and (max-width: 375px) {
+  #mission .left-side .motto h1 {
+    font-size: 28px; } }
 @media screen and (min-width: 1051px) and (max-width: 1200px) {
   #target .container .goals {
     width: 1050px; }
@@ -417,3 +450,19 @@ footer {
     width: 350px; }
     #target .container .goals .goal {
       margin: 50px 0; } }
+@media screen and (min-width: 651px) and (max-width: 1300px) {
+  #about .container {
+    width: 650px; }
+    #about .container .info {
+      float: unset;
+      margin: 0 auto 50px; } }
+@media screen and (max-width: 650px) {
+  #about .container {
+    width: 300px; }
+    #about .container .info {
+      width: 100%;
+      float: unset;
+      margin: 0 auto 50px; }
+    #about .container .info .adv {
+      display: block;
+      margin: 60px auto 0; } }

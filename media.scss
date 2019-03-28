@@ -51,9 +51,16 @@
     }
 }
 
+@media screen and (max-width: 480px){
+    header .container .content-container .content .content-background .text-content h1{
+        width: 320px;
+        font-size: 36px;
+    }
+}
+
 //Misja
 
-@media screen and (max-width: 1300px){
+@media screen and (min-width: 651px) and (max-width: 1300px){
     #mission{
         width: 100%;
         flex-direction: column;
@@ -75,6 +82,55 @@
 
     #mission .left-side{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #mission{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mission .right-side{
+        width: 100%;
+
+        h2{
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        p{
+            width: 100%;
+        }
+
+        p:last-child{
+            margin-bottom: 30px;
+        }
+    }
+
+    #mission .left-side{
+        width: 100%;
+
+        .motto{
+            width: 100%;
+        }
+
+        .icon img{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 650px){
+    #mission .left-side .motto h1{
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #mission .left-side .motto h1{
+        font-size: 28px;
     }
 }
 
@@ -103,6 +159,36 @@
         width: 350px;
         .goal{
             margin: 50px 0;
+        }
+    }
+}
+
+//About
+
+@media screen and (min-width: 651px) and (max-width: 1300px){
+    #about .container{
+        width: 650px;
+
+        .info{
+            float: unset;
+            margin: 0 auto 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px){
+    #about .container{
+        width: 300px;
+
+        .info{
+            width: 100%;
+            float: unset;
+            margin: 0 auto 50px;
+        }
+
+        .info .adv{
+            display: block;
+            margin: 60px auto 0;
         }
     }
 }
