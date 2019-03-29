@@ -164,11 +164,7 @@ header {
 
 #target {
   min-height: 100%;
-  background-image: url("pictures/targets/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
+  background-color: black; }
   #target .container {
     height: 100%; }
     #target .container h1 {
@@ -193,12 +189,12 @@ header {
         width: 150px;
         margin: auto; }
         #target .container .goals .goal .icon img {
-          width: 100px; }
+          width: 120px; }
       #target .container .goals .goal p {
         color: white;
         width: 300px;
         margin: auto;
-        font-size: 16px; }
+        font-size: 18px; }
 
 #about {
   min-height: 100%; }
@@ -286,8 +282,7 @@ header {
       font-size: 18px; }
 
 #media {
-  height: 100%;
-  background-color: #ebebeb; }
+  height: 100%; }
   #media .container {
     width: 1000px;
     margin: auto; }
@@ -297,19 +292,24 @@ header {
       text-transform: uppercase; }
     #media .container .media-container {
       margin: 20px 0 70px;
-      height: 220px; }
-    #media .container .media-container .slick-slide .logo {
-      width: 180px;
-      height: 180px;
-      border: 2px solid black;
+      margin: auto; }
+    #media .container .media-container .slick-slide img {
+      width: 250px;
+      height: 160px;
       margin: auto;
       transition-property: width height;
-      transition-duration: .8s; }
+      transition-duration: .8s;
+      display: block;
+      object-fit: cover; }
     #media .container .media-container .slick-slide h3 {
-      text-align: center; }
-    #media .container .media-container .slick-center .logo {
-      width: 220px;
-      height: 220px; }
+      text-align: center;
+      padding: 20px 0;
+      width: 80%;
+      margin: auto;
+      font-weight: 300; }
+    #media .container .media-container .slick-center img {
+      width: 290px;
+      height: 180px; }
     #media .container .co {
       width: 1000px;
       margin: 20px auto 0; }

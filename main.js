@@ -3,7 +3,8 @@ $('.media-container').slick({
     centerMode: true,
     autoplay: true,
     autoplayspeed: 2000,
-    speed: 800
+    speed: 800,
+    centerPadding: '20px'
 });
 
 $('header .content-container').slick({

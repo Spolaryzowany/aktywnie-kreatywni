@@ -233,11 +233,7 @@ header{
 
 #target{
     min-height: 100%;
-    background-image: url('pictures/targets/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: black;
 
     .container{
         height: 100%;
@@ -270,7 +266,7 @@ header{
                 margin: auto;
 
                 img{
-                    width: 100px;
+                    width: 120px;
                 }
             }
 
@@ -278,7 +274,7 @@ header{
                 color: white;
                 width: 300px;
                 margin: auto;
-                font-size: 16px;
+                font-size: 18px;
             }
         }
     }
@@ -411,7 +407,6 @@ header{
 
 #media{
     height: 100%;
-    background-color: rgb(235, 235, 235);
 
     .container{
         width: 1000px;
@@ -425,28 +420,33 @@ header{
         
         .media-container{
             margin: 20px 0 70px;
-            height: 220px;
+            margin: auto;
         }
 
         .media-container .slick-slide{
-            .logo{
-                width: 180px;
-                height: 180px;
-                border: 2px solid black;
+            img{
+                width: 250px;
+                height: 160px;
                 margin: auto;
                 transition-property: width height;
                 transition-duration: .8s;
+                display: block;
+                object-fit: cover;
             }
 
             h3{
                 text-align: center;
+                padding: 20px 0;
+                width: 80%;
+                margin: auto;
+                font-weight: 300;
             }
         }
 
         .media-container .slick-center{
-            .logo{
-                width: 220px;
-                height: 220px;
+            img{
+                width: 290px;
+                height: 180px;
             }
         }
 
