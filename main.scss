@@ -486,14 +486,18 @@ body,html{
     }
 }
 
-footer{
+.footer{
     height: 100%;
+    display: flex;
     
-    .left-side{
-        float: left;
+    .footer_left{
         width: 40%;
         height: 100%;
         background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
 
         h1{
             text-transform: uppercase;
@@ -503,17 +507,24 @@ footer{
             padding: 40px 0 20px;
         }
 
-        h2{
-            color: white;
-            width: 300px;
-            margin: 0 45%;
-            padding: 3px 0;
+        .footer_company-data{
+            h2{
+                color: white;
+                width: 300px;
+                margin: 0 30%;
+                padding: 3px 0;
+            }
         }
 
-        .contact-data{
-            width: 500px;
-            margin: 0 30%;
-            padding: 5px 0;
+        .footer_company-contact{
+            width: 100%;
+            margin: 0 auto;
+            padding: 23px 0 0;
+
+            .footer_data{
+                padding: 5px 0;
+                text-align: center;
+            }
 
             i,span{
                 color: white;
@@ -522,6 +533,7 @@ footer{
 
             span{
                 font-size: 22px;
+                width: 100%;
             }
 
             i{
@@ -531,18 +543,78 @@ footer{
         }
     }
 
-    .right-side{
-        float: left;
+    .footer_right{
         width: 60%;
         height: 100%;
-        background-image: url('pictures/footer-background.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background-image: url('pictures/footer-background.jpg');
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // background-size: cover;
 
-        .container{
-            background-color: rgba(0, 0, 0, .3);
-            height: 100%;
+        .footer_form{
+            width: 500px;
+            height: 500px;
+
+            h1{
+                text-align: center;
+                padding-bottom: 30px;
+            }
+
+            .footer_data{
+                label p{
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+
+                label input, label textarea{
+                    width: 100%;
+                    padding: 10px;
+                    margin: 10px 0;
+                    outline: none;
+                    border: none;
+                    border-bottom: 1px solid black;
+
+                    &:focus{
+                        border-bottom: 2px solid black;
+                    }
+                }
+
+                label textarea{
+                    height: 250px;
+                }
+            }
+
+            .footer_button{
+                text-align: center;
+
+                button{
+                    width: 200px;
+                    padding: 10px 0;
+                    cursor: pointer;
+                    font-size: 20px;
+                    color: black;
+                    background-color: white;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    border: none;
+
+                    &::after{
+                        content: '';
+                        width: 0;
+                        display: block;
+                        margin: 10px auto 0;
+                        border-bottom: 2px solid black;
+                        transition: width .2s linear;
+                    }
+
+                    &:hover::after{
+                        width: 150px;
+                    }
+                }
+            }
         }
     }
 }

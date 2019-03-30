@@ -333,47 +333,91 @@ body, html {
       #media .container .co img {
         width: 180px; }
 
-footer {
-  height: 100%; }
-  footer .left-side {
-    float: left;
+.footer {
+  height: 100%;
+  display: flex; }
+  .footer .footer_left {
     width: 40%;
     height: 100%;
-    background-color: black; }
-    footer .left-side h1 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .footer .footer_left h1 {
       text-transform: uppercase;
       text-align: center;
       color: white;
       font-size: 46px;
       padding: 40px 0 20px; }
-    footer .left-side h2 {
+    .footer .footer_left .footer_company-data h2 {
       color: white;
       width: 300px;
-      margin: 0 45%;
-      padding: 3px 0; }
-    footer .left-side .contact-data {
-      width: 500px;
       margin: 0 30%;
-      padding: 5px 0; }
-      footer .left-side .contact-data i, footer .left-side .contact-data span {
+      padding: 3px 0; }
+    .footer .footer_left .footer_company-contact {
+      width: 100%;
+      margin: 0 auto;
+      padding: 23px 0 0; }
+      .footer .footer_left .footer_company-contact .footer_data {
+        padding: 5px 0;
+        text-align: center; }
+      .footer .footer_left .footer_company-contact i, .footer .footer_left .footer_company-contact span {
         color: white;
         vertical-align: top; }
-      footer .left-side .contact-data span {
-        font-size: 22px; }
-      footer .left-side .contact-data i {
+      .footer .footer_left .footer_company-contact span {
+        font-size: 22px;
+        width: 100%; }
+      .footer .footer_left .footer_company-contact i {
         font-size: 30px;
         margin: 0 10px; }
-  footer .right-side {
-    float: left;
+  .footer .footer_right {
     width: 60%;
     height: 100%;
-    background-image: url("pictures/footer-background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
-    footer .right-side .container {
-      background-color: rgba(0, 0, 0, 0.3);
-      height: 100%; }
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer .footer_right .footer_form {
+      width: 500px;
+      height: 500px; }
+      .footer .footer_right .footer_form h1 {
+        text-align: center;
+        padding-bottom: 30px; }
+      .footer .footer_right .footer_form .footer_data label p {
+        font-size: 12px;
+        font-weight: bold; }
+      .footer .footer_right .footer_form .footer_data label input, .footer .footer_right .footer_form .footer_data label textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black; }
+        .footer .footer_right .footer_form .footer_data label input:focus, .footer .footer_right .footer_form .footer_data label textarea:focus {
+          border-bottom: 2px solid black; }
+      .footer .footer_right .footer_form .footer_data label textarea {
+        height: 250px; }
+      .footer .footer_right .footer_form .footer_button {
+        text-align: center; }
+        .footer .footer_right .footer_form .footer_button button {
+          width: 200px;
+          padding: 10px 0;
+          cursor: pointer;
+          font-size: 20px;
+          color: black;
+          background-color: white;
+          text-transform: uppercase;
+          font-weight: bold;
+          border: none; }
+          .footer .footer_right .footer_form .footer_button button::after {
+            content: '';
+            width: 0;
+            display: block;
+            margin: 10px auto 0;
+            border-bottom: 2px solid black;
+            transition: width .2s linear; }
+          .footer .footer_right .footer_form .footer_button button:hover::after {
+            width: 150px; }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .header .header_container .nav {
