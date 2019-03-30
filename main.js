@@ -4,7 +4,18 @@ $('.media-container').slick({
     autoplay: true,
     autoplayspeed: 2000,
     speed: 800,
-    centerPadding: '20px'
+    centerPadding: '20px',
+    draggable: false,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings:{
+                slidesToShow: 1,
+                centerPadding: 0,
+                centerMode: false,
+            }
+        }
+    ]
 });
 
 $('header .content-container').slick({
