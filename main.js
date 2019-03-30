@@ -18,7 +18,7 @@ $('.media-container').slick({
     ]
 });
 
-$('header .content-container').slick({
+$('.header .header_content').slick({
     slidesToShow: 1,
     autoplay: true,
     arrows: false,
@@ -28,7 +28,7 @@ $('header .content-container').slick({
     fade: true
 })
 
-$('.container nav ul li, .content-container .content button').click(function(){
+$('.header_container .nav ul li, .header_content .header_slide .next button').click(function(){
     var $scrollId = $(this).attr('data-scroll-id');
     var $scrollPoint;
 
@@ -41,6 +41,8 @@ $('.container nav ul li, .content-container .content button').click(function(){
 });
 
 $(window).scroll(function(){
-    if($(this).scrollTop() > 0) $('header .container nav').addClass('scrolled');
-    else $('header .container nav').removeClass('scrolled');
+    const $navId = $('.header .header_container .nav');
+
+    if($(this).scrollTop() > 0) $navId.addClass('scrolled');
+    else $navId.removeClass('scrolled');
 });
