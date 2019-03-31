@@ -311,3 +311,23 @@
         }
     }
 }
+
+//Form
+
+@media screen and (max-width: 1024px){
+    .footer{
+        flex-direction: column;
+
+        .footer_left,.footer_right{
+            width: 100%;
+        }
+
+        .footer_left{
+            padding: 20px 0;
+
+            h1{
+                padding-top: 0;
+            }
+        }
+    }
+}
