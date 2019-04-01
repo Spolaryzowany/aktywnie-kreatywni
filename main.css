@@ -304,7 +304,9 @@ body, html {
       margin: auto;
       height: 300px; }
     #media .container .media-container .media-partner {
-      cursor: pointer; }
+      cursor: pointer;
+      color: black;
+      text-decoration: none; }
     #media .container .media-container .slick-slide {
       outline: none; }
       #media .container .media-container .slick-slide img {
@@ -601,3 +603,6 @@ body, html {
       padding: 20px 0; }
       .footer .footer_left h1 {
         padding-top: 0; } }
+@media screen and (max-width: 500px) {
+  .footer .footer_right .footer_form {
+    width: 100%; } }
