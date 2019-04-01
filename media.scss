@@ -335,5 +335,9 @@
 @media screen and (max-width: 500px){
     .footer .footer_right .footer_form{
         width: 100%;
+
+        .footer_data{
+            padding: 0 10px;
+        }
     }
 }

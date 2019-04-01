@@ -6,6 +6,8 @@ $('.media-container').slick({
     speed: 800,
     centerPadding: '20px',
     draggable: false,
+    arrows: false,
+    dots: false,
     responsive: [
         {
             breakpoint: 1024,
