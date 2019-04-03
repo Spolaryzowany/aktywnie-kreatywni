@@ -426,8 +426,8 @@ body, html {
       .footer .footer_left .footer_company-data h3 {
         color: white;
         width: 300px;
-        margin-left: 150px;
-        padding: 3px 0; }
+        margin: auto;
+        padding: 3px 0 3px 70px; }
     .footer .footer_left .footer_company-contact {
       width: 100%;
       margin: 0 auto;

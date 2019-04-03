@@ -60,7 +60,7 @@ $('.header .header_container .nav_mobile ul li').click(function(){
     if($scrollId){
         $scrollPoint = $($scrollId).offset().top;
         $('html').animate({
-            scrollTop: Math.floor($scrollPoint - 50)
+            scrollTop: Math.floor($scrollPoint - 49)
         },1000);
         $('.header .header_container .nav_mobile').toggleClass('--activated');
     }
