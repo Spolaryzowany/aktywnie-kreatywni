@@ -64,4 +64,8 @@ $('.header .header_container .nav_mobile ul li').click(function(){
         },1000);
         $('.header .header_container .nav_mobile').toggleClass('--activated');
     }
+});
+
+$('.header .header_container .nav_mobile').click(function(e){
+    if(e.target.localName != "li" && e.target.localName != "i") $('.header .header_container .nav_mobile').toggleClass('--activated');
 })
