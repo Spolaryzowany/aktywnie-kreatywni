@@ -31,8 +31,8 @@ $('.header .header_content').slick({
 })
 
 $('.header_container .nav ul li, .header_content .header_slide .next button').click(function(){
-    var $scrollId = $(this).attr('data-scroll-id');
-    var $scrollPoint;
+    let $scrollId = $(this).attr('data-scroll-id');
+    let $scrollPoint;
 
     if($scrollId){
         $scrollPoint = $($scrollId).offset().top;
@@ -43,8 +43,25 @@ $('.header_container .nav ul li, .header_content .header_slide .next button').cl
 });
 
 $(window).scroll(function(){
-    const $navId = $('.header .header_container .nav');
+    let $navId = $('.header .header_container .nav');
 
     if($(this).scrollTop() > 0) $navId.addClass('scrolled');
     else $navId.removeClass('scrolled');
 });
+
+$('.header .header_container .nav .fa-bars, .header .header_container .nav_mobile .fa-times-circle').click(function(){
+    $('.header .header_container .nav_mobile').toggleClass('--activated');
+});
+
+$('.header .header_container .nav_mobile ul li').click(function(){
+    let $scrollId = $(this).attr('data-scroll-id');
+    let $scrollPoint;
+
+    if($scrollId){
+        $scrollPoint = $($scrollId).offset().top;
+        $('html').animate({
+            scrollTop: Math.floor($scrollPoint - 50)
+        },1000);
+        $('.header .header_container .nav_mobile').toggleClass('--activated');
+    }
+})

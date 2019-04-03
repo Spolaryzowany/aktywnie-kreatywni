@@ -44,7 +44,7 @@ body, html {
       color: white;
       display: inline-block;
       list-style-type: none;
-      padding: 10px 10px;
+      padding: 10px;
       cursor: pointer;
       text-transform: uppercase;
       font-weight: bold;
@@ -62,6 +62,58 @@ body, html {
         border: none; }
       .header .header_container .nav ul li i {
         color: white; }
+    .header .header_container .nav .fa-bars {
+      float: right;
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      display: none;
+      color: white;
+      cursor: pointer;
+      font-size: 24px; }
+  .header .header_container .nav_mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition-property: visibility opacity;
+    transition-duration: .5s;
+    transition-timing-function: linear; }
+    .header .header_container .nav_mobile.--activated {
+      opacity: 1;
+      visibility: visible; }
+    .header .header_container .nav_mobile li {
+      color: white;
+      list-style: none;
+      text-align: center;
+      padding: 10px;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 18px; }
+      .header .header_container .nav_mobile li::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid white;
+        margin: 5px auto 0;
+        width: 0;
+        transition: width .25s linear; }
+      .header .header_container .nav_mobile li:hover::after {
+        width: 50px; }
+    .header .header_container .nav_mobile .fa-times-circle {
+      position: absolute;
+      color: white;
+      font-size: 24px;
+      top: 10px;
+      right: 20px;
+      cursor: pointer; }
   .header .header_container .header_content {
     width: 100%;
     height: 100%;
@@ -371,10 +423,10 @@ body, html {
       padding: 40px 0 20px; }
     .footer .footer_left .footer_company-data {
       overflow: hidden; }
-      .footer .footer_left .footer_company-data h2 {
+      .footer .footer_left .footer_company-data h3 {
         color: white;
         width: 300px;
-        margin: 0 30%;
+        margin-left: 150px;
         padding: 3px 0; }
     .footer .footer_left .footer_company-contact {
       width: 100%;
@@ -448,23 +500,22 @@ body, html {
     .header .header_container .nav .nav_logo {
       margin: auto; } }
 @media screen and (max-width: 768px) {
+  .header .header_container .nav_mobile {
+    display: flex; }
+
   .header .header_container .nav {
     height: 50px; }
     .header .header_container .nav.scrolled ul li::after, .header .header_container .nav.scrolled ul li i {
       display: none; }
+    .header .header_container .nav.scrolled .fa-bars {
+      color: black; }
     .header .header_container .nav ul {
       display: none; }
+    .header .header_container .nav .fa-bars {
+      display: block; }
     .header .header_container .nav .nav_logo {
       float: unset;
-      margin: auto; }
-
-  .header .header_container .header_content .header_slide .header_background .next {
-    text-align: center; }
-    .header .header_container .header_content .header_slide .header_background .next button {
-      display: block;
-      margin: 0 auto 20px; }
-    .header .header_container .header_content .header_slide .header_background .next .read-more {
-      position: unset; } }
+      margin: auto; } }
 @media screen and (max-width: 480px) {
   .header .header_container .header_content .header_slide .header_background .header_text h1 {
     width: 320px;
