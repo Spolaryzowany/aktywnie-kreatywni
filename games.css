@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px; }
+  .logo h1 {
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    color: white; }
+
+.description {
+  min-height: 100%;
+  background-image: url("https://cdn.pixabay.com/photo/2019/03/13/23/50/california-4053982_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .description .description_container {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .description .description_container h1 {
+      text-align: center;
+      font-size: 40px;
+      padding: 30px 0;
+      width: 100%;
+      text-transform: uppercase;
+      color: white; }
+      .description .description_container h1::after {
+        content: '';
+        display: block;
+        border-bottom: 4px solid white;
+        width: 100px;
+        margin: 10px auto 0; }
+    .description .description_container .description_left, .description .description_container .description_right {
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .description .description_container .description_left {
+      flex-direction: column; }
+      .description .description_container .description_left p {
+        padding: 0 20px;
+        margin: 5px auto;
+        font-size: 18px;
+        width: 60%;
+        color: white; }
+    .description .description_container .description_right {
+      width: 40%;
+      justify-content: flex-start; }
+      .description .description_container .description_right img {
+        width: 90%; }
+  .description .description_button {
+    border: none;
+    background-color: initial;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    padding: 10px 20px;
+    clear: both; }
+    .description .description_button::after {
+      display: block;
+      margin: auto;
+      content: '';
+      width: 0;
+      border-bottom: 2px solid white;
+      margin-top: 10px;
+      transition: .2s linear width; }
+    .description .description_button:hover::after {
+      width: 150px; }
+
+.programs {
+  height: 100%; }
+  .programs h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 40px; }
+  .programs .programs_container {
+    display: flex;
+    justify-content: center; }
+  .programs .programs_container .programs_position {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #107e10;
+    position: relative;
+    margin: 0 30px; }
+    .programs .programs_container .programs_position p {
+      padding: 0 20px;
+      text-align: center; }
+    .programs .programs_container .programs_position button {
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #107e10;
+      border: none;
+      border: 2px solid #107e10;
+      outline: none;
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      display: block;
+      width: 250px;
+      height: 50px;
+      font-weight: bold;
+      background-color: inherit;
+      cursor: pointer; }
+  .programs .programs_more {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #107e10;
+    border: none;
+    outline: none;
+    margin: 30px auto 0;
+    display: block;
+    width: 200px;
+    padding: 10px 0;
+    font-weight: bold;
+    background-color: inherit;
+    cursor: pointer; }
+    .programs .programs_more::after {
+      display: block;
+      margin: auto;
+      content: '';
+      width: 0;
+      border-bottom: 2px solid #107e10;
+      margin-top: 10px;
+      transition: .2s linear width; }
+    .programs .programs_more:hover::after {
+      width: 150px; }
+
+.continued {
+  height: 100%;
+  display: flex; }
+  .continued .continued_left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .continued .continued_left p {
+      width: 80%;
+      padding: 10px 0;
+      font-size: 18px;
+      text-align: justify; }
+  .continued .continued_right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .continued .continued_right .row {
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .continued .continued_right .icon {
+      width: 200px;
+      height: 200px;
+      text-align: center; }
+    .continued .continued_right .icon i {
+      font-size: 60px; }
