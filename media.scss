@@ -180,13 +180,47 @@
 
 //About
 
-@media screen and (min-width: 651px) and (max-width: 1300px){
+@media screen and (min-width: 1001px) and (max-width: 1300px){
     #about .container{
-        width: 650px;
+        width: 1000px;
 
         .info{
-            float: unset;
-            margin: 0 auto 50px;
+            width: 500px;
+            margin: 0;
+        }
+
+        .info .adv{
+            img{
+                width: 200px;
+            }
+
+            .text{
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 1000px){
+    #about .container{
+        width: 90%;
+        margin: auto;
+
+        .info{
+            width: 100%;
+            margin: 0;
+        }
+
+        .info .adv{
+            margin-bottom: 60px;
+
+            img{
+                width: 35%;
+            }
+
+            .text{
+                width: 65%;
+            }
         }
     }
 }
@@ -197,13 +231,29 @@
 
         .info{
             width: 100%;
-            float: unset;
             margin: 0 auto 50px;
         }
 
         .info .adv{
             display: block;
             margin: 60px auto 0;
+
+            img{
+                margin: auto;
+            }
+
+            .text{
+                width: 100%;
+
+                h3{
+                    padding: 10px 0;
+                    text-align: center;
+                }
+
+                p{
+                    text-align: center;
+                }
+            }
         }
     }
 }

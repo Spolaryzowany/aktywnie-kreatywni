@@ -25,7 +25,7 @@ $('.header .header_content').slick({
     autoplay: true,
     arrows: false,
     speed: 800,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 3000,
     draggable: false,
     fade: true
 })
