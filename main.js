@@ -6,11 +6,12 @@ $('.media-container').slick({
     speed: 800,
     centerPadding: '20px',
     draggable: false,
-    arrows: false,
+    prevArrow: '<i class="fas fa-arrow-left"></i>',
+    nextArrow: '<i class="fas fa-arrow-right"></i>',
     dots: false,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1124,
             settings:{
                 slidesToShow: 1,
                 centerPadding: 0,

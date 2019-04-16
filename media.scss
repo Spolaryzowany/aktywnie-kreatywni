@@ -46,6 +46,14 @@
             margin: auto;
         }
     }
+
+    .header .header_container .header_content .header_slide .next{
+        button.read-more{
+            margin-left: auto;
+            margin-right: auto;
+            right: 0;
+        }
+    }
 }
 
 @media screen and (max-height: 400px){
@@ -69,6 +77,14 @@
     .header .header_container .header_content .header_slide .header_background .header_text h1{
         width: 320px;
         font-size: 36px;
+    }
+
+    .header .header_container .header_content .header_slide .next{
+        button.read-more{
+            margin-left: auto;
+            margin-right: auto;
+            right: 0;
+        }
     }
 }
 
@@ -276,9 +292,10 @@
         flex-wrap: wrap-reverse;
 
         .person p{
-            width: 300px;
+            width: 400px;
             display: block;
             text-align: center;
+            margin: auto;
         }
 
         .person:first-child{
@@ -324,13 +341,17 @@
 
 //Media
 
-@media screen and (min-width: 501px) and (max-width: 1024px){
+@media screen and (min-width: 501px) and (max-width: 1124px){
     #media .container{
         width: 500px;
 
         .media-container{
             height: 350px;
             margin-bottom: 30px;
+
+            i{
+                top: 40%;
+            }
         }
 
         .media-container .slick-slide img{
@@ -357,6 +378,19 @@
 
         .media-container{
             margin-bottom: 30px;
+
+            i{
+                color: white;
+                top: 38%;
+            }
+
+            .fa-arrow-right{
+                right: 10px;
+            }
+
+            .fa-arrow-left{
+                left: 10px;
+            }
         }
 
         .media-container .slick-slide img{
@@ -398,6 +432,11 @@
 }
 
 @media screen and (max-width: 500px){
+    .footer .footer_left .footer_company-contact .footer_data{
+        width: 95%;
+        text-align: center;
+    }
+
     .footer .footer_right .footer_form{
         width: 100%;
 
