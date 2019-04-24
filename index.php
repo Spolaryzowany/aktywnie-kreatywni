@@ -157,7 +157,7 @@
         <div class="container">
             <div class="left-side info">
                 <h1>Dla dzieci</h1>
-                <a href="gry-terenowe-dla-dzieci.html" class="adv">
+                <a href="gry-terenowe-dla-dzieci.php" class="adv">
                     <img src="https://cdn.pixabay.com/photo/2018/05/26/16/08/mountains-3431690_1280.jpg" alt="">
                     <div class="text">
                         <h3>Gry terenowe</h3>
@@ -177,7 +177,7 @@
         
             <div class="right-side info">
                 <h1>Dla dorosłych</h1>
-                <a href="gry-terenowe-dla-doroslych.html" class="adv">
+                <a href="gry-terenowe-dla-doroslych.php" class="adv">
                     <img src="https://cdn.pixabay.com/photo/2018/10/28/17/48/castle-3779404_1280.jpg" alt="">
                     <div class="text">
                         <h3>Gry terenowe</h3>
