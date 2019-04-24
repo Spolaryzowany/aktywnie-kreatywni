@@ -1,0 +1,75 @@
+@media screen and (max-width: 1200px) {
+  #mission {
+    justify-content: center;
+    flex-wrap: wrap-reverse; }
+    #mission .left-side {
+      order: 2; }
+      #mission .left-side h2 {
+        padding: 20px 0;
+        text-align: center; }
+    #mission .right-side {
+      order: 1;
+      margin-bottom: 20px; }
+    #mission .mission-button {
+      order: 3; } }
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  #mission .left-side, #mission .right-side {
+    width: 800px; }
+  #mission .left-side p {
+    width: 100%; }
+  #mission .right-side .icon img {
+    width: 800px; } }
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  #mission .left-side, #mission .right-side {
+    width: 600px; }
+  #mission .left-side p {
+    width: 600px; }
+  #mission .right-side .icon img {
+    width: 600px; } }
+@media screen and (max-width: 600px) {
+  #mission .left-side, #mission .right-side {
+    width: 100%; }
+  #mission .left-side .content {
+    width: 100%; }
+    #mission .left-side .content p, #mission .left-side .content h2 {
+      width: 100%; }
+  #mission .right-side .icon img {
+    width: 100%; } }
+@media screen and (max-width: 1080px) {
+  .programs .programs_container .programs_position {
+    margin-bottom: 20px; }
+
+  .programs .programs_container .programs_position:last-child {
+    margin-bottom: 0; } }
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .continued {
+    flex-direction: column-reverse;
+    align-items: center;
+    min-height: 80%; }
+    .continued .continued_left {
+      width: 100%; }
+    .continued .continued_right {
+      width: 400px;
+      flex-wrap: nowrap; }
+      .continued .continued_right .row, .continued .continued_right .icon {
+        height: unset;
+        width: unset; }
+      .continued .continued_right .icon {
+        margin: 0 20px; } }
+@media screen and (max-width: 600px) {
+  .continued {
+    flex-direction: column-reverse; }
+    .continued .continued_left, .continued .continued_right {
+      width: 100%; }
+    .continued .continued_right {
+      flex-wrap: nowrap;
+      flex-direction: column; }
+      .continued .continued_right .row {
+        width: unset;
+        height: unset; }
+      .continued .continued_right .icon {
+        height: unset;
+        width: 100px;
+        margin: 20px; }
+        .continued .continued_right .icon i {
+          font-size: 80px; } }

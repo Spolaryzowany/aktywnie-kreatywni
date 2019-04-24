@@ -17,7 +17,7 @@
     <section id="mission">
         <div class="left-side">
             <div class="content">
-                <h2>O nas</h2>
+                <h2>Gry terenowe dla dzieci</h2>
                 <p>Fundację założyliśmy początkowo z myślą o dzieciach i młodzieży. Po kilkunastu latach spędzonych w szkolnej ławce stwierdziliśmy: "chwila, przecież to nie musi być takie nudne".</p>
     
                 <p>Dzieci lubią wspinać się na drzewa, biegać w kółko i krzyczeć, bo takie już są. Młodzież lubi działać, widzieć efekty swojej pracy. Kocha robić coś ekstra, coś co ich wyróżni. No a dorośli - dorośli to duże dzieci, które czasem tylko zakładają garnitury na spotkanie biznesowe by wyglądać poważniej.</p>
