@@ -158,7 +158,7 @@
             <div class="left-side info">
                 <h1>Dla dzieci</h1>
                 <a href="gry-terenowe-dla-dzieci.php" class="adv">
-                    <img src="https://cdn.pixabay.com/photo/2018/05/26/16/08/mountains-3431690_1280.jpg" alt="">
+                    <img src="pictures/offer-pictures/1.jpg" alt="">
                     <div class="text">
                         <h3>Gry terenowe</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
@@ -166,7 +166,7 @@
                     <!-- <a href="gry-terenowe-dla-dzieci.html"><button>Dowiedz się więcej</button></a> -->
                 </a>
                 <a href="" class="adv">
-                    <img src="https://cdn.pixabay.com/photo/2018/05/26/15/53/mountains-3431615_1280.jpg" alt="">
+                    <img src="pictures/offer-pictures/2.jpg" alt="">
                     <div class="text">
                         <h3>Warsztaty</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
@@ -178,14 +178,14 @@
             <div class="right-side info">
                 <h1>Dla dorosłych</h1>
                 <a href="gry-terenowe-dla-doroslych.php" class="adv">
-                    <img src="https://cdn.pixabay.com/photo/2018/10/28/17/48/castle-3779404_1280.jpg" alt="">
+                    <img src="pictures/offer-pictures/3.jpg" alt="">
                     <div class="text">
                         <h3>Gry terenowe</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
                     </div>
                 </a>
                 <a href="" class="adv">
-                    <img src="https://cdn.pixabay.com/photo/2019/01/22/05/30/xmas-3947457_1280.jpg" alt="">
+                    <img src="pictures/offer-pictures/4.jpg" alt="">
                     <div class="text">
                         <h3>Warsztaty</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>

@@ -302,7 +302,7 @@ body, html {
 
 #people {
   min-height: 100vh;
-  background-image: url("https://cdn.pixabay.com/photo/2015/03/26/09/41/tie-690084_1280.jpg");
+  background-image: url("pictures/people-pictures/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
