@@ -157,42 +157,40 @@
         <div class="container">
             <div class="left-side info">
                 <h1>Dla dzieci</h1>
-                <div class="adv">
+                <a href="gry-terenowe-dla-dzieci.html" target="_blank" class="adv">
                     <img src="https://cdn.pixabay.com/photo/2018/05/26/16/08/mountains-3431690_1280.jpg" alt="">
                     <div class="text">
                         <h3>Gry terenowe</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
                     </div>
                     <!-- <a href="gry-terenowe-dla-dzieci.html"><button>Dowiedz się więcej</button></a> -->
-                </div>
-                <div class="adv">
+                </a>
+                <a href="" class="adv">
                     <img src="https://cdn.pixabay.com/photo/2018/05/26/15/53/mountains-3431615_1280.jpg" alt="">
                     <div class="text">
                         <h3>Warsztaty</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
                     </div>
                     <!-- <a href=""><button>Dowiedz się więcej</button></a> -->
-                </div>
+                </a>
             </div>
         
             <div class="right-side info">
                 <h1>Dla dorosłych</h1>
-                <div class="adv">
+                <a href="gry-terenowe-dla-doroslych.html" target="_blank" class="adv">
                     <img src="https://cdn.pixabay.com/photo/2018/10/28/17/48/castle-3779404_1280.jpg" alt="">
                     <div class="text">
                         <h3>Gry terenowe</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
                     </div>
-                    <!-- <a href=""><button>Dowiedz się więcej</button></a> -->
-                </div>
-                <div class="adv">
+                </a>
+                <a href="" class="adv">
                     <img src="https://cdn.pixabay.com/photo/2019/01/22/05/30/xmas-3947457_1280.jpg" alt="">
                     <div class="text">
                         <h3>Warsztaty</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
                     </div>
-                    <!-- <a href="gry-terenowe-dla-doroslych.html"><button>Dowiedz się więcej</button></a> -->
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -290,7 +288,7 @@
         </div>
 
         <div class="footer_right">
-            <form action="" class="footer_form">
+            <form action="send.php" class="footer_form">
                 <h1>Skontaktuj się z nami</h1>
                 
                 <div class="footer_data">

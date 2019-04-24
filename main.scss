@@ -398,6 +398,8 @@ body,html{
             margin: 60px 20px 0;
             display: flex;
             align-items: center;
+            text-decoration: none;
+            color: black;
 
             img{
                 width: 230px;
@@ -724,6 +726,7 @@ body,html{
                     border: none;
                     border-bottom: 1px solid white;
                     background-color: $formColor;
+                    color: white;
 
                     &:focus{
                         border-bottom: 2px solid white;
@@ -767,4 +770,4 @@ body,html{
     }
 }
 
-@import 'media.scss';
+@import 'main-media.scss';

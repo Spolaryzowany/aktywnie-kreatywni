@@ -287,7 +287,9 @@ body, html {
     #about .container .info .adv {
       margin: 60px 20px 0;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      text-decoration: none;
+      color: black; }
       #about .container .info .adv img {
         width: 230px;
         display: block; }
@@ -488,7 +490,8 @@ body, html {
         outline: none;
         border: none;
         border-bottom: 1px solid white;
-        background-color: initial; }
+        background-color: initial;
+        color: white; }
         .footer .footer_right .footer_form .footer_data label input:focus, .footer .footer_right .footer_form .footer_data label textarea:focus {
           border-bottom: 2px solid white; }
       .footer .footer_right .footer_form .footer_data label textarea {
@@ -698,6 +701,7 @@ body, html {
   #people .container .people .person p {
     display: block;
     width: 95%;
+    margin: auto;
     text-align: center; } }
 @media screen and (min-width: 501px) and (max-width: 1124px) {
   #media .container {

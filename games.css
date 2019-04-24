@@ -11,88 +11,75 @@ body, html {
 .logo {
   position: fixed;
   top: 20px;
-  left: 20px; }
+  left: 20px;
+  display: none; }
   .logo h1 {
     width: 200px;
     padding: 10px 0;
     text-align: center;
     color: white; }
 
-.description {
+#mission {
   min-height: 100%;
-  background-image: url("https://cdn.pixabay.com/photo/2019/03/13/23/50/california-4053982_1280.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-  .description .description_container {
-    min-height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-wrap: wrap; }
+  #mission .left-side {
+    width: 50%;
+    min-height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column; }
-    .description .description_container h1 {
-      text-align: center;
-      font-size: 40px;
-      padding: 30px 0;
-      width: 100%;
+    align-items: center; }
+    #mission .left-side h2 {
+      font-weight: bold;
+      padding: 0 20px 20px;
       text-transform: uppercase;
-      color: white; }
-      .description .description_container h1::after {
-        content: '';
-        display: block;
-        border-bottom: 4px solid white;
-        width: 100px;
-        margin: 10px auto 0; }
-    .description .description_container .description_left, .description .description_container .description_right {
-      float: left;
+      width: 600px;
+      margin: 0 auto 0; }
+    #mission .left-side p {
+      width: 600px;
+      font-size: 20px;
+      padding: 5px 20px;
+      font-weight: 300;
+      margin: auto;
+      color: #4d4d4d;
+      text-align: justify; }
+  #mission .right-side {
+    width: 50%;
+    min-height: 100%; }
+    #mission .right-side .icon {
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center; }
-    .description .description_container .description_left {
-      flex-direction: column; }
-      .description .description_container .description_left p {
-        padding: 0 20px;
-        margin: 5px auto;
-        font-size: 18px;
-        width: 60%;
-        color: white; }
-    .description .description_container .description_right {
-      width: 40%;
-      justify-content: flex-start; }
-      .description .description_container .description_right img {
-        width: 90%; }
-  .description .description_button {
-    border: none;
-    background-color: initial;
-    color: white;
-    outline: none;
-    cursor: pointer;
-    font-size: 24px;
-    display: block;
-    margin: auto;
-    font-weight: bold;
-    padding: 10px 20px;
-    clear: both; }
-    .description .description_button::after {
+      #mission .right-side .icon img {
+        width: 600px;
+        display: block;
+        margin-top: 50px; }
+  #mission .mission_button {
+    width: 100%; }
+    #mission .mission_button button {
       display: block;
       margin: auto;
-      content: '';
-      width: 0;
-      border-bottom: 2px solid white;
-      margin-top: 10px;
-      transition: .2s linear width; }
-    .description .description_button:hover::after {
-      width: 150px; }
+      background: initial;
+      color: #4d4d4d;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 10px 15px;
+      border: 2px solid #4d4d4d; }
 
 .programs {
-  height: 100%; }
+  min-height: 100%; }
   .programs h1 {
     text-transform: uppercase;
     text-align: center;
     padding: 20px 0 40px; }
   .programs .programs_container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center; }
   .programs .programs_container .programs_position {
     width: 300px;
@@ -146,7 +133,7 @@ body, html {
       width: 150px; }
 
 .continued {
-  height: 100%;
+  min-height: 100%;
   display: flex; }
   .continued .continued_left {
     width: 50%;
@@ -175,3 +162,59 @@ body, html {
       text-align: center; }
     .continued .continued_right .icon i {
       font-size: 60px; }
+
+@media screen and (max-width: 1200px) {
+  #mission {
+    justify-content: center;
+    flex-wrap: wrap-reverse; }
+    #mission .left-side {
+      order: 2; }
+      #mission .left-side h2 {
+        padding: 20px 0;
+        text-align: center; }
+    #mission .right-side {
+      order: 1;
+      margin-bottom: 20px; }
+    #mission .mission-button {
+      order: 3; } }
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  #mission .left-side, #mission .right-side {
+    width: 800px; }
+  #mission .left-side p {
+    width: 100%; }
+  #mission .right-side .icon img {
+    width: 800px; } }
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  #mission .left-side, #mission .right-side {
+    width: 600px; }
+  #mission .left-side p {
+    width: 600px; }
+  #mission .right-side .icon img {
+    width: 600px; } }
+@media screen and (max-width: 600px) {
+  #mission .left-side, #mission .right-side {
+    width: 100%; }
+  #mission .left-side p {
+    width: 100%; }
+  #mission .right-side .icon img {
+    width: 100%; } }
+@media screen and (max-width: 1080px) {
+  .programs .programs_container .programs_position {
+    margin-bottom: 20px; }
+
+  .programs .programs_container .programs_position:last-child {
+    margin-bottom: 0; } }
+@media screen and (max-width: 1024px) {
+  .continued {
+    flex-direction: column-reverse;
+    align-items: center; }
+    .continued .continued_left {
+      width: 100%; }
+    .continued .continued_right {
+      width: 400px;
+      flex-wrap: nowrap; }
+      .continued .continued_right .row, .continued .continued_right .icon {
+        height: unset;
+        width: unset; }
+      .continued .continued_right .icon {
+        margin: 0 20px; } }
