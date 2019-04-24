@@ -30,7 +30,7 @@ try{
 
     $mail->send();
 
-    echo 'Message has been sent';
+    header('Location: '.'https://gry-terenowe.herokuapp.com/');
 }
 catch(Exception $e){
     echo "Message could not be sent. Mailer Error.";
