@@ -158,7 +158,7 @@
             <div class="left-side info">
                 <h1>Dla dzieci</h1>
                 <a href="gry-terenowe-dla-dzieci.php" class="adv">
-                    <img src="pictures/offer-pictures/1.jpg" alt="">
+                    <img src="pictures/offer-pictures/2.jpg" alt="">
                     <div class="text">
                         <h3>Gry terenowe</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
@@ -166,7 +166,7 @@
                     <!-- <a href="gry-terenowe-dla-dzieci.html"><button>Dowiedz się więcej</button></a> -->
                 </a>
                 <a href="" class="adv">
-                    <img src="pictures/offer-pictures/2.jpg" alt="">
+                    <img src="pictures/offer-pictures/1.jpg" alt="">
                     <div class="text">
                         <h3>Warsztaty</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
