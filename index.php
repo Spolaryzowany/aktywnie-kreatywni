@@ -233,7 +233,7 @@
                     <a class="media-partner" href="https://radioplus.com.pl/region/z-flaga-przez-polske-32411" target="_blank">
                         <img src="pictures/media-pictures/2.jpg" alt="">
                         <h3>Podsumowanie Sztafety Niepodległości w Radiu Plus</h3>
-                    </d>
+                    </a>
                     <a class="media-partner" href="">
                         <img src="pictures/media-pictures/3.jpg" alt="">
                         <h3>Relacja ze Sztafety Niepodległości - Telewizja Dami</h3>

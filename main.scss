@@ -259,7 +259,7 @@ body,html{
         }
 
         .motto p{
-            font-weight: 700;
+            // font-weight: 700;
             font-size: 18px;
             color: rgb(68, 68, 68);
             text-align: center;
@@ -272,10 +272,11 @@ body,html{
             color: rgb(68, 68, 68);
             padding: 20px 0;
             font-style: italic;
+            font-family: 'Lato', sans-serif;
 
             span{
                 font-size: 15px;
-                margin-left: 50px;
+                // margin-left: 50px;
                 font-weight: bold;
             }
         }
@@ -435,13 +436,13 @@ body,html{
         }
     }
 
-    .container .left-side{
+    // .container .left-side{
 
-        // .adv button{
-        //     border-color: rgb(0, 97, 224);
-        //     color: rgb(0, 97, 224);
-        // }
-    }
+    //     .adv button{
+    //         border-color: rgb(0, 97, 224);
+    //         color: rgb(0, 97, 224);
+    //     }
+    // }
 }
 
 #people{

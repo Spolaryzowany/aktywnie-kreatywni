@@ -145,6 +145,10 @@
 
         .motto{
             width: 100%;
+
+            p{
+                padding: 0 5px;
+            }
         }
 
         .icon img{
@@ -153,17 +157,17 @@
     }
 }
 
-@media screen and (min-width: 376px) and (max-width: 650px){
-    #mission .left-side .motto h1{
-        font-size: 34px;
-    }
-}
+// @media screen and (min-width: 376px) and (max-width: 650px){
+//     #mission .left-side .motto h1{
+//         font-size: 34px;
+//     }
+// }
 
-@media screen and (max-width: 375px){
-    #mission .left-side .motto h1{
-        font-size: 28px;
-    }
-}
+// @media screen and (max-width: 375px){
+//     #mission .left-side .motto h1{
+//         font-size: 28px;
+//     }
+// }
 
 //Cele
 
@@ -420,13 +424,14 @@
 
         .footer_left,.footer_right{
             width: 100%;
+            min-height: 1px;
         }
 
         .footer_left{
             padding: 20px 0;
 
             h1{
-                padding-top: 0;
+                padding: 0 10px 10px;
             }
         }
     }
