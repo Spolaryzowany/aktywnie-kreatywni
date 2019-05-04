@@ -165,7 +165,7 @@
                 <a href="gry-terenowe-dla-dzieci.php" class="adv next">
                     <h3>Warsztaty</h3>
                     <img src="pictures/offer-pictures/1.jpg" alt="">
-                    <p>Historia, przyroda, czy ekonomia wcale nie muszą odbywać się w szkolnej ławce. Łączymy naukę z zabawą. Dzieciaki zdobywają wiedzę, a potem wykorzystują ją w praktyce. Oczywiście wszystko dzieje się w ruchu i na świeżym powietrzu.</p>
+                    <p>Zdolności manualne dzieci zanikają? Nie u nas! Prowadzimy masę warsztatów rękodzielniczych i kreatywnych. Nauczymy dzieci posługiwać się narzędziami i tworzyć za ich pomocą małe (a nawet duże) dzieła sztuki. Drewniane karmniki dla ptaków, własne doniczki, a jeśli macie trochę więcej czasu to nawet pełnowymiarowe i w pełni użytkowe kajaki. Podwijać rękawy!</p>
                 </a>
             </div>
         
@@ -179,7 +179,7 @@
                 <a href="gry-terenowe-dla-doroslych.php" class="adv next">
                     <h3>Warsztaty</h3>
                     <img src="pictures/offer-pictures/4.jpg" alt="">
-                    <p>Chcecie spędzić czas nieco inaczej niż zwykle? Zwiedzić zamek nocą, odkrywając jego najmroczniejsze tajemnice? Poznać historię miasta? Lubicie grać w gry? To może zagracie w jakąś na żywo! To świetne rozwiązanie na integracje dla firmy, zwiedzanie miasta, lub zwykłe spotkanie znajomych.</p>
+                    <p>Podobno każdy ma w sobie coś z inżyniera. Niestety często w naszej pracy nie ma za dużo miejsca na rozwój głęboko ukrytych zdolności. Przyznacie rację: wszyscy uwielbiamy projektować, tworzyć główkować nad rozwiązaniami. I ta satysfakcja, kiedy wykonasz coś własnymi rękami! Może zawsze chciałeś uszyć portfel, albo wykuć dla siebie nóż? Wpadnij do nas!</p>
                 </a>
             </div>
             <div class="about_showArrow">
