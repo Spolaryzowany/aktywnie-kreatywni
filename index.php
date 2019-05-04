@@ -100,8 +100,8 @@
     <section id="mission">
         <div class="left-side">
             <div class="motto">
-                <p>Mieszkamy w miastach, jeździmy wygodnymi samochodami, jemy jedzenie z plastikowych pudełek, a kawę robi nam automatyczny ekspres ciśnieniowy. Czy po to żyjemy? Czy o tym właśnie marzy dziecko?</p>
-                <h2>"Po latach życia w klatce , lew przestaje wierzyć, że jest lwem, a człowiek przestaje wierzyć, ze jest człowiekiem" <span>John Eldredge</span></h2>
+                <p>Jesteśmy młodym zespołem pełnym energii i nowych pomysłów. Są wśród nas miłośnicy górskich wędrówek i nowych technologii, rękodzielnicy, bariści i informatycy. Łączy nas pasja do tego co robimy i chęć dzielenia się nią z innymi. </p>
+                <!-- <h2>"Po latach życia w klatce , lew przestaje wierzyć, że jest lwem, a człowiek przestaje wierzyć, ze jest człowiekiem" <span>John Eldredge</span></h2> -->
             </div>
             <div class="icon">
                 <img src="pictures/mission-picture.jpeg" alt="">
@@ -158,39 +158,32 @@
             <div class="left-side info">
                 <h1>Dla dzieci</h1>
                 <a href="gry-terenowe-dla-dzieci.php" class="adv">
+                    <h3>Gry terenowe</h3>
                     <img src="pictures/offer-pictures/2.jpg" alt="">
-                    <div class="text">
-                        <h3>Gry terenowe</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
-                    </div>
-                    <!-- <a href="gry-terenowe-dla-dzieci.html"><button>Dowiedz się więcej</button></a> -->
+                    <p>Historia, przyroda, czy ekonomia wcale nie muszą odbywać się w szkolnej ławce. Łączymy naukę z zabawą. Dzieciaki zdobywają wiedzę, a potem wykorzystują ją w praktyce. Oczywiście wszystko dzieje się w ruchu i na świeżym powietrzu.</p>
                 </a>
-                <a href="" class="adv">
+                <a href="gry-terenowe-dla-dzieci.php" class="adv next">
+                    <h3>Warsztaty</h3>
                     <img src="pictures/offer-pictures/1.jpg" alt="">
-                    <div class="text">
-                        <h3>Warsztaty</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
-                    </div>
-                    <!-- <a href=""><button>Dowiedz się więcej</button></a> -->
+                    <p>Historia, przyroda, czy ekonomia wcale nie muszą odbywać się w szkolnej ławce. Łączymy naukę z zabawą. Dzieciaki zdobywają wiedzę, a potem wykorzystują ją w praktyce. Oczywiście wszystko dzieje się w ruchu i na świeżym powietrzu.</p>
                 </a>
             </div>
         
             <div class="right-side info">
                 <h1>Dla dorosłych</h1>
                 <a href="gry-terenowe-dla-doroslych.php" class="adv">
+                    <h3>Gry terenowe</h3>
                     <img src="pictures/offer-pictures/3.jpg" alt="">
-                    <div class="text">
-                        <h3>Gry terenowe</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
-                    </div>
+                    <p>Chcecie spędzić czas nieco inaczej niż zwykle? Zwiedzić zamek nocą, odkrywając jego najmroczniejsze tajemnice? Poznać historię miasta? Lubicie grać w gry? To może zagracie w jakąś na żywo! To świetne rozwiązanie na integracje dla firmy, zwiedzanie miasta, lub zwykłe spotkanie znajomych.</p>
                 </a>
-                <a href="" class="adv">
+                <a href="gry-terenowe-dla-doroslych.php" class="adv next">
+                    <h3>Warsztaty</h3>
                     <img src="pictures/offer-pictures/4.jpg" alt="">
-                    <div class="text">
-                        <h3>Warsztaty</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, explicabo quia nisi tempore distinctio sapiente assumenda consequuntur modi.</p>
-                    </div>
+                    <p>Chcecie spędzić czas nieco inaczej niż zwykle? Zwiedzić zamek nocą, odkrywając jego najmroczniejsze tajemnice? Poznać historię miasta? Lubicie grać w gry? To może zagracie w jakąś na żywo! To świetne rozwiązanie na integracje dla firmy, zwiedzanie miasta, lub zwykłe spotkanie znajomych.</p>
                 </a>
+            </div>
+            <div class="about_showArrow">
+                <i class="fas fa-arrow-down"></i>
             </div>
         </div>
     </section>

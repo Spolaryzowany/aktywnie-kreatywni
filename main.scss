@@ -24,7 +24,7 @@ body,html{
         width: 100%;
         height: 60px;
         transition: background-color .3s linear;
-        z-index: 2;
+        z-index: 50;
 
         &.scrolled{
             background-color: white;
@@ -110,7 +110,7 @@ body,html{
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, .9);
-        z-index: 10;
+        z-index: 100;
         align-items: center;
         justify-content: center;
         visibility: hidden;
@@ -255,31 +255,32 @@ body,html{
 
         .motto{
             width: 600px;
-            margin: 70px auto 0;
+            margin: 40px auto;
         }
 
         .motto p{
-            // font-weight: 700;
+            font-weight: 700;
             font-size: 18px;
             color: rgb(68, 68, 68);
             text-align: center;
+            // padding-bottom: 10px;
         }
 
-        .motto h2{
-            text-align: center;
-            font-weight: 400;
-            font-size: 24px;
-            color: rgb(68, 68, 68);
-            padding: 20px 0;
-            font-style: italic;
-            font-family: 'Lato', sans-serif;
+        // .motto h2{
+        //     text-align: center;
+        //     font-weight: 400;
+        //     font-size: 24px;
+        //     color: rgb(68, 68, 68);
+        //     padding: 20px 0;
+        //     font-style: italic;
+        //     font-family: 'Lato', sans-serif;
 
-            span{
-                font-size: 15px;
-                // margin-left: 50px;
-                font-weight: bold;
-            }
-        }
+        //     span{
+        //         font-size: 15px;
+        //         // margin-left: 50px;
+        //         font-weight: bold;
+        //     }
+        // }
 
         .icon{
             width: 100%;
@@ -372,15 +373,16 @@ body,html{
 
 #about{
     min-height: 100%;
+    position: relative;
 
     h1{
         text-transform: uppercase;
         text-align: center;
-        padding: 20px 0 50px;
+        padding: 20px 0 25px;
     }
 
     .container{
-        width: 1300px;
+        width: 1200px;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
@@ -388,7 +390,7 @@ body,html{
     }
 
     .container .info{
-        width: 600px;
+        width: 500px;
         margin: 0 25px;
         
         h1{
@@ -396,27 +398,47 @@ body,html{
         }
 
         .adv{
-            margin: 60px 20px 0;
-            display: flex;
-            align-items: center;
+            font-family: 'Lato', sans-serif;
+            width: 400px;
+            margin: 30px auto;
+            display: block;
+            // display: flex;
+            // align-items: center;
             text-decoration: none;
-            color: black;
+            color: rgb(53, 53, 53);
+            height: 500px;
+            // background-color: rgb(240, 240, 240);
+            box-shadow: 2px 2px 10px 1px rgb(126, 126, 126);
 
-            img{
-                width: 230px;
-                display: block;
+            &.next{
+                height: 0;
+                overflow: hidden;
+                transition: height .5s linear;
             }
 
-            .text{
-                width: 350px;
+            &.nextShow{
+                height: 500px;
+            }
 
-                h3{
-                    padding: 0 10px 10px;
-                }
-                
-                p{
-                    padding: 0 10px;
-                }
+            img{
+                width: 280px;
+                display: block;
+                margin: auto;
+            }
+
+            h3{
+                font-size: 26px;
+                padding: 10px 0;
+                text-align: center;
+            }
+
+            p{
+                width: 300px;
+                margin: auto;
+                padding: 20px 10px;
+                // text-align: center;
+                // font-size: 18px;
+                color: rgb(53, 53, 53);
             }
             
 
@@ -443,6 +465,21 @@ body,html{
     //         color: rgb(0, 97, 224);
     //     }
     // }
+
+    .about_showArrow{
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 50px;
+        text-align: center;
+
+        i{
+            font-size: 34px;
+            cursor: pointer;
+        }
+    }
 }
 
 #people{

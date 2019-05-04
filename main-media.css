@@ -106,42 +106,25 @@
     width: 1000px; }
     #about .container .info {
       width: 500px;
-      margin: 0; }
-    #about .container .info .adv img {
-      width: 200px; }
-    #about .container .info .adv .text {
-      width: 300px; } }
-@media screen and (min-width: 651px) and (max-width: 1000px) {
+      margin: 0; } }
+@media screen and (max-width: 1000px) {
   #about .container {
     width: 90%;
     margin: auto; }
-    #about .container .info {
-      width: 100%;
-      margin: 0; }
     #about .container .info .adv {
-      margin-bottom: 60px; }
-      #about .container .info .adv img {
-        width: 35%; }
-      #about .container .info .adv .text {
-        width: 65%; } }
-@media screen and (max-width: 650px) {
-  #about .container {
+      margin: 30px auto; }
+      #about .container .info .adv.next {
+        height: 500px; }
+
+  #about .about_showArrow {
+    display: none; } }
+@media screen and (max-width: 400px) {
+  #about .container .info .adv {
     width: 300px; }
-    #about .container .info {
-      width: 100%;
-      margin: 0 auto 50px; }
-    #about .container .info .adv {
-      display: block;
-      margin: 60px auto 0; }
-      #about .container .info .adv img {
-        margin: auto; }
-      #about .container .info .adv .text {
-        width: 100%; }
-        #about .container .info .adv .text h3 {
-          padding: 10px 0;
-          text-align: center; }
-        #about .container .info .adv .text p {
-          text-align: center; } }
+    #about .container .info .adv img {
+      width: 250px; }
+    #about .container .info .adv p {
+      width: 280px; } }
 @media screen and (min-width: 1001px) and (max-width: 1200px) {
   #people .container .people {
     width: 1000px; }

@@ -21,6 +21,13 @@ $('.media-container').slick({
     ]
 });
 
+$('#about .about_showArrow i').click(function(){
+    if($(this).attr('class') == "fas fa-arrow-down") $(this).attr('class','fas fa-arrow-up')
+    else $(this).attr('class','fas fa-arrow-down')
+
+    $('#about .container .info .adv').toggleClass('nextShow');
+})
+
 $('.header .header_content').slick({
     slidesToShow: 1,
     autoplay: true,

@@ -21,7 +21,8 @@ try{
     $mail->Port       = 587;
 
     $mail->setFrom($_GET['email'], $_GET['name']);
-    $mail->addAddress('aktywniekreatywni@gmail.com');
+    $mail->addAddress('pitko829@gmail.com');
+    $mail->addReplyTo($_GET['email'], $_GET['name']);
 
     $mail->isHTML(true);
     $mail->Subject = "Wiadomość od ".$_GET_['name'];
@@ -30,7 +31,7 @@ try{
 
     $mail->send();
 
-    header('Location: '.'https://gry-terenowe.herokuapp.com/');
+    header('Location: '.'http://localhost/Projekty/gry-terenowe/index.php');
 }
 catch(Exception $e){
     echo "Message could not be sent. Mailer Error.";
