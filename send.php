@@ -21,8 +21,7 @@ try{
     $mail->Port       = 587;
 
     $mail->setFrom($_GET['email'], $_GET['name']);
-    $mail->addAddress('pitko829@gmail.com');
-    $mail->addReplyTo($_GET['email'], $_GET['name']);
+    $mail->addAddress('aktywniekreatywni@gmail.com');
 
     $mail->isHTML(true);
     $mail->Subject = "Wiadomość od ".$_GET_['name'];
