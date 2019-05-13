@@ -401,14 +401,11 @@ body,html{
             font-family: 'Lato', sans-serif;
             width: 400px;
             margin: 30px auto;
-            display: block;
-            // display: flex;
-            // align-items: center;
             text-decoration: none;
             color: rgb(53, 53, 53);
             height: 500px;
-            // background-color: rgb(240, 240, 240);
             box-shadow: 2px 2px 10px 1px rgb(126, 126, 126);
+            position: relative;
 
             &.next{
                 height: 0;
@@ -436,9 +433,22 @@ body,html{
                 width: 300px;
                 margin: auto;
                 padding: 20px 10px;
-                // text-align: center;
-                // font-size: 18px;
+                text-align: justify;
+                font-size: 15px;
                 color: rgb(53, 53, 53);
+            }
+
+            a{
+                position: absolute;
+                bottom: 40px;
+                right: 60px;
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+
+                &:hover{
+                    color: rgb(58, 58, 58);
+                }
             }
             
 
@@ -455,6 +465,10 @@ body,html{
             //     padding: 10px 20px;
             //     cursor: pointer;
             // }
+        }
+
+        .next a{
+            bottom: 20px;
         }
     }
 
@@ -553,7 +567,7 @@ body,html{
             width: 100%;
             padding: 0 10px;
             font-size: 18px;
-            text-align: center;
+            text-align: justify;
             color: white;
         }
     }
@@ -561,6 +575,8 @@ body,html{
 
 #media{
     min-height: 100%;
+    display: flex;
+    align-items: center;
 
     .container{
         width: 1000px;
@@ -590,15 +606,16 @@ body,html{
                 transform: rotateY(-50%);
                 top: 23%;
                 cursor: pointer;
-                font-size: 32px;
+                font-size: 40px;
                 z-index: 5;
+                color: rgb(54, 54, 54);
             }
 
-            .fa-arrow-right{
+            .fa-angle-double-right{
                 right: -50px;
             }
 
-            .fa-arrow-left{
+            .fa-angle-double-left{
                 left: -50px;
             }
         }

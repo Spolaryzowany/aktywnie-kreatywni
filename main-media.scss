@@ -90,19 +90,66 @@
 
 //Misja
 
-@media screen and (min-width: 651px) and (max-width: 1300px){
+@media screen and (min-width: 1201px) and (max-width: 1300px){
+    #mission{
+        .left-side .icon img{
+            width: 95%;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px){
     #mission{
         width: 100%;
         flex-direction: column;
         align-items: center;
     }
+}
 
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    #mission{
+        .left-side{
+            .icon img{
+                width: 95%;
+            }
+
+            .motto{
+                width: 500px;
+            }
+        }
+
+        .right-side{
+            p{
+                width: 500px;
+                font-size: 18px;
+            }
+
+            h2{
+                width: 500px;
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: 1023px){
     #mission .right-side{
         width: 100%;
+    }
 
+    #mission .left-side{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1023px){
+    #mission .right-side{
         h2{
             padding-top: 40px;
             text-align: center;
+        }
+
+        p{
+            width: 800px;
         }
 
         p:last-child{
@@ -111,20 +158,49 @@
     }
 
     #mission .left-side{
-        width: 100%;
+        order: 1;
+
+        .icon{
+            padding: 0 0 30px;
+        }
+
+        .icon img{
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 800px){
+    #mission .right-side{
+        h2{
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        p{
+            width: 600px;
+        }
+
+        p:last-child{
+            margin-bottom: 30px;
+        }
+    }
+
+    #mission .left-side{
+        order: 1;
+
+        .icon{
+            padding: 0 0 30px;
+        }
+
+        .icon img{
+            width: 70%;
+        }
     }
 }
 
 @media screen and (max-width: 650px){
-    #mission{
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-
     #mission .right-side{
-        width: 100%;
-
         h2{
             padding-top: 40px;
             text-align: center;
@@ -141,8 +217,6 @@
     }
 
     #mission .left-side{
-        width: 100%;
-
         .motto{
             width: 100%;
 
@@ -156,18 +230,6 @@
         }
     }
 }
-
-// @media screen and (min-width: 376px) and (max-width: 650px){
-//     #mission .left-side .motto h1{
-//         font-size: 34px;
-//     }
-// }
-
-// @media screen and (max-width: 375px){
-//     #mission .left-side .motto h1{
-//         font-size: 28px;
-//     }
-// }
 
 //Cele
 
@@ -313,7 +375,6 @@
         .person p{
             width: 400px;
             display: block;
-            text-align: center;
             margin: auto;
         }
 
@@ -354,7 +415,6 @@
             display: block;
             width: 95%;
             margin: auto;
-            text-align: center;
         }
     }
 }
@@ -404,11 +464,11 @@
                 top: 38%;
             }
 
-            .fa-arrow-right{
+            .fa-angle-double-right{
                 right: 10px;
             }
 
-            .fa-arrow-left{
+            .fa-angle-double-left{
                 left: 10px;
             }
         }

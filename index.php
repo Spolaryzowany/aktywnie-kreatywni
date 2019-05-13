@@ -157,30 +157,34 @@
         <div class="container">
             <div class="left-side info">
                 <h1>Dla dzieci</h1>
-                <a href="gry-terenowe-dla-dzieci.php" class="adv">
+                <div class="adv">
                     <h3>Gry terenowe</h3>
                     <img src="pictures/offer-pictures/2.jpg" alt="">
                     <p>Historia, przyroda, czy ekonomia wcale nie muszą odbywać się w szkolnej ławce. Łączymy naukę z zabawą. Dzieciaki zdobywają wiedzę, a potem wykorzystują ją w praktyce. Oczywiście wszystko dzieje się w ruchu i na świeżym powietrzu.</p>
-                </a>
-                <a href="gry-terenowe-dla-dzieci.php" class="adv next">
+                    <a href="gry-terenowe-dla-dzieci.php">Zobacz więcej</a>
+                </div>
+                <div class="adv next">
                     <h3>Warsztaty</h3>
                     <img src="pictures/offer-pictures/1.jpg" alt="">
                     <p>Zdolności manualne dzieci zanikają? Nie u nas! Prowadzimy masę warsztatów rękodzielniczych i kreatywnych. Nauczymy dzieci posługiwać się narzędziami i tworzyć za ich pomocą małe (a nawet duże) dzieła sztuki. Drewniane karmniki dla ptaków, własne doniczki, a jeśli macie trochę więcej czasu to nawet pełnowymiarowe i w pełni użytkowe kajaki. Podwijać rękawy!</p>
-                </a>
+                    <a href="#">Zobacz więcej</a>
+                </div>
             </div>
         
             <div class="right-side info">
                 <h1>Dla dorosłych</h1>
-                <a href="gry-terenowe-dla-doroslych.php" class="adv">
+                <div class="adv">
                     <h3>Gry terenowe</h3>
                     <img src="pictures/offer-pictures/3.jpg" alt="">
                     <p>Chcecie spędzić czas nieco inaczej niż zwykle? Zwiedzić zamek nocą, odkrywając jego najmroczniejsze tajemnice? Poznać historię miasta? Lubicie grać w gry? To może zagracie w jakąś na żywo! To świetne rozwiązanie na integracje dla firmy, zwiedzanie miasta, lub zwykłe spotkanie znajomych.</p>
-                </a>
-                <a href="gry-terenowe-dla-doroslych.php" class="adv next">
+                    <a href="gry-terenowe-dla-doroslych.php">Zobacz więcej</a>
+                </div>
+                <div class="adv next">
                     <h3>Warsztaty</h3>
                     <img src="pictures/offer-pictures/4.jpg" alt="">
                     <p>Podobno każdy ma w sobie coś z inżyniera. Niestety często w naszej pracy nie ma za dużo miejsca na rozwój głęboko ukrytych zdolności. Przyznacie rację: wszyscy uwielbiamy projektować, tworzyć główkować nad rozwiązaniami. I ta satysfakcja, kiedy wykonasz coś własnymi rękami! Może zawsze chciałeś uszyć portfel, albo wykuć dla siebie nóż? Wpadnij do nas!</p>
-                </a>
+                    <a href="#">Zobacz więcej</a>
+                </div>
             </div>
             <div class="about_showArrow">
                 <i class="fas fa-arrow-down"></i>
@@ -247,7 +251,7 @@
                 </div>
             </div>
 
-            <h1>Współpracowaliśmy</h1>
+            <!-- <h1>Współpracowaliśmy</h1>
 
             <div class="co">
                 <div class="partner-logo"><img src="pictures/cooperation-logos/1.png" alt=""></div>
@@ -255,7 +259,7 @@
                 <div class="partner-logo"><img src="pictures/cooperation-logos/3.png" alt=""></div>
                 <div class="partner-logo"><img src="pictures/cooperation-logos/4.png" alt=""></div>
                 <div class="partner-logo"><img src="pictures/cooperation-logos/5.png" alt=""></div>
-            </div>
+            </div> -->
         </div>
     </section>
 

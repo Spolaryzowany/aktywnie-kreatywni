@@ -45,47 +45,76 @@
     margin-left: auto;
     margin-right: auto;
     right: 0; } }
-@media screen and (min-width: 651px) and (max-width: 1300px) {
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+  #mission .left-side .icon img {
+    width: 95%; } }
+@media screen and (max-width: 1024px) {
   #mission {
     width: 100%;
     flex-direction: column;
-    align-items: center; }
-
+    align-items: center; } }
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  #mission .left-side .icon img {
+    width: 95%; }
+  #mission .left-side .motto {
+    width: 500px; }
+  #mission .right-side p {
+    width: 500px;
+    font-size: 18px; }
+  #mission .right-side h2 {
+    width: 500px; } }
+@media screen and (max-width: 1023px) {
   #mission .right-side {
     width: 100%; }
-    #mission .right-side h2 {
-      padding-top: 40px;
-      text-align: center; }
-    #mission .right-side p:last-child {
-      margin-bottom: 30px; }
 
   #mission .left-side {
     width: 100%; } }
-@media screen and (max-width: 650px) {
-  #mission {
-    width: 100%;
-    flex-direction: column;
-    align-items: center; }
-
-  #mission .right-side {
-    width: 100%; }
-    #mission .right-side h2 {
-      padding-top: 40px;
-      text-align: center;
-      width: 100%; }
-    #mission .right-side p {
-      width: 100%; }
-    #mission .right-side p:last-child {
-      margin-bottom: 30px; }
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+  #mission .right-side h2 {
+    padding-top: 40px;
+    text-align: center; }
+  #mission .right-side p {
+    width: 800px; }
+  #mission .right-side p:last-child {
+    margin-bottom: 30px; }
 
   #mission .left-side {
-    width: 100%; }
-    #mission .left-side .motto {
-      width: 100%; }
-      #mission .left-side .motto p {
-        padding: 0 5px; }
+    order: 1; }
+    #mission .left-side .icon {
+      padding: 0 0 30px; }
     #mission .left-side .icon img {
-      width: 100%; } }
+      width: 70%; } }
+@media screen and (min-width: 651px) and (max-width: 800px) {
+  #mission .right-side h2 {
+    padding-top: 40px;
+    text-align: center; }
+  #mission .right-side p {
+    width: 600px; }
+  #mission .right-side p:last-child {
+    margin-bottom: 30px; }
+
+  #mission .left-side {
+    order: 1; }
+    #mission .left-side .icon {
+      padding: 0 0 30px; }
+    #mission .left-side .icon img {
+      width: 70%; } }
+@media screen and (max-width: 650px) {
+  #mission .right-side h2 {
+    padding-top: 40px;
+    text-align: center;
+    width: 100%; }
+  #mission .right-side p {
+    width: 100%; }
+  #mission .right-side p:last-child {
+    margin-bottom: 30px; }
+
+  #mission .left-side .motto {
+    width: 100%; }
+    #mission .left-side .motto p {
+      padding: 0 5px; }
+  #mission .left-side .icon img {
+    width: 100%; } }
 @media screen and (min-width: 1051px) and (max-width: 1200px) {
   #target .container .goals {
     width: 1050px; }
@@ -137,7 +166,6 @@
     #people .container .people .person p {
       width: 400px;
       display: block;
-      text-align: center;
       margin: auto; }
     #people .container .people .person:first-child {
       order: 1; }
@@ -160,8 +188,7 @@
   #people .container .people .person p {
     display: block;
     width: 95%;
-    margin: auto;
-    text-align: center; } }
+    margin: auto; } }
 @media screen and (min-width: 501px) and (max-width: 1124px) {
   #media .container {
     width: 500px; }
@@ -189,9 +216,9 @@
       #media .container .media-container i {
         color: white;
         top: 38%; }
-      #media .container .media-container .fa-arrow-right {
+      #media .container .media-container .fa-angle-double-right {
         right: 10px; }
-      #media .container .media-container .fa-arrow-left {
+      #media .container .media-container .fa-angle-double-left {
         left: 10px; }
     #media .container .media-container .slick-slide img {
       width: 100%;

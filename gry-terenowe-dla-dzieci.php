@@ -45,12 +45,12 @@
         <div class="programs_container">
             <div class="programs_position">
                 <h1>$Biznes granie!</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, consequatur quaerat. Modi suscipit incidunt nisi corporis, itaque maiores officia perspiciatis ipsa nemo repellat officiis recusandae architecto tempora accusamus consequatur obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laboriosam iusto eos ducimus itaque sunt quisquam excepturi in consectetur, aperiam debitis, voluptate maiores aspernatur quidem ullam perspiciatis adipisci iste minima?</p>
+                <p>To ekonomiczno - strategiczna gra terenowa, w której zadaniem uczestników jest jak najbardziej rozwinąć swoje miasto i poszerzyć wpływy. Żeby to zrobić, trzeba być niezłym inwestorem, umieć negocjować z innymi graczami, a przede wszystkim szybko reagować na zmiany rynkowe.</p>
                 <button>Zapisz grupę</button>
             </div>
             <div class="programs_position">
                 <h1>Tropem Bobrów</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, consequatur quaerat. Modi suscipit incidunt nisi corporis, itaque maiores officia perspiciatis ipsa nemo repellat officiis recusandae architecto tempora accusamus consequatur obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laboriosam iusto eos ducimus itaque sunt quisquam excepturi in consectetur, aperiam debitis, voluptate maiores aspernatur quidem ullam perspiciatis adipisci iste minima?</p>
+                <p>Przyrodnicza gra terenowa, podczas której uczestnicy podążają tropami bobrów, wilków, czy innych zwierząt lub roślin. Po drodze poznają tryb ich życia, zwyczaje i ciekawostki. Zadania weryfikują ich wiedzę w praktyce.</p>
                 <button>Zapisz grupę</button>
             </div>
             <div class="programs_position">

@@ -6,8 +6,8 @@ $('.media-container').slick({
     speed: 800,
     centerPadding: '20px',
     draggable: false,
-    prevArrow: '<i class="fas fa-arrow-left"></i>',
-    nextArrow: '<i class="fas fa-arrow-right"></i>',
+    prevArrow: '<i class="fas fa-angle-double-left"></i>',
+    nextArrow: '<i class="fas fa-angle-double-right"></i>',
     dots: false,
     responsive: [
         {
