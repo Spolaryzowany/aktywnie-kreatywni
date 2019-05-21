@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <link rel="stylesheet" type="text/css" href="library/slick.css">
     <link rel="stylesheet" type="text/css" href="library/slick-theme.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700|Quicksand:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700|Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>

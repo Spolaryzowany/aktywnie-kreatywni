@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Gry terenowe dla dzieci</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700|Quicksand:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700|Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="games.css">
 </head>
 <body>
-    <div class="logo">
-        <h1>logo</h1>
-    </div>
+
+    <nav class="nav">
+        <a href="index.php" class="logo">
+            <h1>logo</h1>
+        </a>
+    </nav>
 
     <section id="mission">
         <div class="left-side">
             <div class="content">
-                <h2>Gry terenowe dla dzieci</h2>
+                <h1>Gry terenowe dla dzieci</h1>
                 <p>Fundację założyliśmy początkowo z myślą o dzieciach i młodzieży. Po kilkunastu latach spędzonych w szkolnej ławce stwierdziliśmy: "chwila, przecież to nie musi być takie nudne".</p>
     
                 <p>Dzieci lubią wspinać się na drzewa, biegać w kółko i krzyczeć, bo takie już są. Młodzież lubi działać, widzieć efekty swojej pracy. Kocha robić coś ekstra, coś co ich wyróżni. No a dorośli - dorośli to duże dzieci, które czasem tylko zakładają garnitury na spotkanie biznesowe by wyglądać poważniej.</p>
@@ -25,42 +28,43 @@
                 <p>Przyznasz, że wszyscy chcą przeżyć niesamowitą przygodę, zrobić coś własnymi rękami, choć raz w roku zobaczyć prawdziwy las.</p>
         
                 <p>Tym własnie jest dla nas Fundacja: nauką przez zabawę, niesamowitą przygodą, spotkaniem z naturą, działaniem na rzecz zdrowego, aktywnego i kreatywnego społeczeństwa.</p>
+
+                <div class="mission_button">
+                    <button>Zobacz co przygotowaliśmy</button>
+                </div>
             </div>
         </div>
 
         <div class="right-side">
             <div class="icon">
-                <img src="pictures/mission-picture.jpeg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2018/02/22/01/04/kids-3171905_960_720.png" alt="">
             </div>
-        </div>
-
-        <div class="mission_button">
-            <button>Zobacz co przygotowaliśmy</button>
         </div>
     </section>
 
     <section class="programs">
-        <h1>Nasze programy</h1>
+        <div class="programs_box">
+            <h1>Nasze programy</h1>
 
-        <div class="programs_container">
-            <div class="programs_position">
-                <h1>$Biznes granie!</h1>
-                <p>To ekonomiczno - strategiczna gra terenowa, w której zadaniem uczestników jest jak najbardziej rozwinąć swoje miasto i poszerzyć wpływy. Żeby to zrobić, trzeba być niezłym inwestorem, umieć negocjować z innymi graczami, a przede wszystkim szybko reagować na zmiany rynkowe.</p>
-                <button>Zapisz grupę</button>
+            <div class="programs_container">
+                <div class="programs_position">
+                    <h1>$Biznes granie!</h1>
+                    <p>To ekonomiczno - strategiczna gra terenowa, w której zadaniem uczestników jest jak najbardziej rozwinąć swoje miasto i poszerzyć wpływy. Żeby to zrobić, trzeba być niezłym inwestorem, umieć negocjować z innymi graczami, a przede wszystkim szybko reagować na zmiany rynkowe.</p>
+                    <button>Zapisz grupę</button>
+                </div>
+                <div class="programs_position">
+                    <h1>Tropem Bobrów</h1>
+                    <p>Przyrodnicza gra terenowa, podczas której uczestnicy podążają tropami bobrów, wilków, czy innych zwierząt lub roślin. Po drodze poznają tryb ich życia, zwyczaje i ciekawostki. Zadania weryfikują ich wiedzę w praktyce.</p>
+                    <button>Zapisz grupę</button>
+                </div>
+                <div class="programs_position">
+                    <h1>INO mi się </h1>
+                    <p>Impreza na orientację - znana od lat forma aktywności terenowej. Sprawdzimy orientację w terenie uczestników, ale nie tylko. Trzeba będzie wykazać się nie lada sprytem, </p>
+                    <button>Zapisz grupę</button>
+                </div>
             </div>
-            <div class="programs_position">
-                <h1>Tropem Bobrów</h1>
-                <p>Przyrodnicza gra terenowa, podczas której uczestnicy podążają tropami bobrów, wilków, czy innych zwierząt lub roślin. Po drodze poznają tryb ich życia, zwyczaje i ciekawostki. Zadania weryfikują ich wiedzę w praktyce.</p>
-                <button>Zapisz grupę</button>
-            </div>
-            <div class="programs_position">
-                <h1>INO mi się </h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, consequatur quaerat. Modi suscipit incidunt nisi corporis, itaque maiores officia perspiciatis ipsa nemo repellat officiis recusandae architecto tempora accusamus consequatur obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laboriosam iusto eos ducimus itaque sunt quisquam excepturi in consectetur, aperiam debitis, voluptate maiores aspernatur quidem ullam perspiciatis adipisci iste minima?</p>
-                <button>Zapisz grupę</button>
-            </div>
+            <button class="programs_more">Więcej</button>
         </div>
-
-        <button class="programs_more">Więcej</button>
     </section>
 
     <section class="continued">
@@ -74,26 +78,26 @@
         <div class="continued_right">
             <div class="row">
                 <div class="icon">
-                    <i class="fas fa-times"></i>
+                    <i class="fas fa-adjust"></i>
                 </div>
                 <div class="icon">
-                    <i class="fas fa-times"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="icon">
-                    <i class="fas fa-times"></i>
-                </div>
-                <div class="icon">
-                    <i class="fas fa-times"></i>
+                    <i class="fas fa-address-book"></i>
                 </div>
             </div>
             <div class="row">
                 <div class="icon">
-                    <i class="fas fa-times"></i>
+                    <i class="fab fa-algolia"></i>
                 </div>
                 <div class="icon">
-                    <i class="fas fa-times"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="icon">
+                    <i class="fab fa-atlassian"></i>
+                </div>
+                <div class="icon">
+                    <i class="fab fa-avianex"></i>
                 </div>
             </div>
         </div>

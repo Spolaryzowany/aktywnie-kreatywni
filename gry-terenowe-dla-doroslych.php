@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Gry terenowe dla dzieci</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700|Quicksand:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700|Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="games.css">
 </head>
@@ -17,7 +17,7 @@
     <section id="mission">
         <div class="left-side">
             <div class="content">
-                <h2>Gry terenowe dla dorosłych</h2>
+                <h1>Gry terenowe dla dorosłych</h1>
                 <p>Fundację założyliśmy początkowo z myślą o dzieciach i młodzieży. Po kilkunastu latach spędzonych w szkolnej ławce stwierdziliśmy: "chwila, przecież to nie musi być takie nudne".</p>
     
                 <p>Dzieci lubią wspinać się na drzewa, biegać w kółko i krzyczeć, bo takie już są. Młodzież lubi działać, widzieć efekty swojej pracy. Kocha robić coś ekstra, coś co ich wyróżni. No a dorośli - dorośli to duże dzieci, które czasem tylko zakładają garnitury na spotkanie biznesowe by wyglądać poważniej.</p>

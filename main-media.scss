@@ -270,16 +270,6 @@
             width: 500px;
             margin: 0;
         }
-
-        // .info .adv{
-        //     img{
-        //         width: 200px;
-        //     }
-
-        //     .text{
-        //         width: 300px;
-        //     }
-        // }
     }
 }
 
@@ -288,25 +278,12 @@
         width: 90%;
         margin: auto;
 
-        // .info{
-        //     width: 100%;
-        //     margin: 0;
-        // }
-
         .info .adv{
             margin: 30px auto;
 
             &.next{
                 height: 500px;
             }
-
-            // img{
-            //     width: 35%;
-            // }
-
-            // .text{
-            //     width: 65%;
-            // }
         }
     }
 
@@ -330,30 +307,6 @@
         }
     }
 }
-
-// @media screen and (max-width: 650px){
-//     #about .container{
-//         width: 90%;
-//         margin: auto;
-
-//         .info{
-//             width: 100%;
-//             margin: 0;
-//         }
-
-//         .info .adv{
-//             margin: 30px auto;
-
-//             // img{
-//             //     width: 35%;
-//             // }
-
-//             // .text{
-//             //     width: 65%;
-//             // }
-//         }
-//     }
-// }
 
 //People
 

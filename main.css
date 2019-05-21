@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box; }
 
 body, html {
@@ -485,8 +485,9 @@ body, html {
       padding: 23px 0 0; }
       .footer .footer_left .footer_company-contact .footer_data {
         padding: 5px 0;
-        width: 450px;
-        margin: auto; }
+        width: 500px;
+        margin: auto;
+        text-align: center; }
       .footer .footer_left .footer_company-contact i, .footer .footer_left .footer_company-contact span {
         color: white;
         vertical-align: top; }
