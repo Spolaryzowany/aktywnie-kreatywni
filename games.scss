@@ -22,8 +22,9 @@ body,html{
     position: fixed;
     top: 0;
     left: 0;
-    // background-color: black;
+    // background-color: rgb(255, 255, 255);
     z-index: 9999;
+    box-shadow: 0 1px 3px 0 white;
 
     .logo{
         // text-align: right;
@@ -35,8 +36,8 @@ body,html{
             color: black;;
             float: left;
             margin-left: 40px;
-            padding-bottom: 40px;
-            background-color: white;
+            padding: 15px 0;
+            // background-color: white;
         }
     }
 }
@@ -45,11 +46,10 @@ body,html{
     min-height: 100%;
     display: flex;
     flex-wrap: wrap;
-    // background-image: url('pictures/offer-pictures/2.jpg');
-    // background-position: center;
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
+    background-image: url('pictures/child-page-pictures/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     $bgColor: rgba(0, 0, 0, 0);
 
@@ -61,14 +61,15 @@ body,html{
         align-items: center;
         flex-direction: column;
         background-color: $bgColor;
+        order: 2;
 
-        $fontColor: black;
+        $fontColor: rgb(0, 80, 112);
 
         .content{
             // background-color: white;
             width: 600px;
             padding: 20px 20px 40px;
-            box-shadow: 2px 2px 10px 1px rgb(156, 173, 0);
+            // box-shadow: 2px 2px 10px 1px $fontColor;
         }
 
         h1{
@@ -78,8 +79,8 @@ body,html{
             width: 600px;
             margin: 0 auto 0;
             font-size: 30px;
-            // color: $fontColor;
-            color: rgb(255, 49, 83);
+            color: $fontColor;
+            // color: white;
         }
 
         p{
@@ -88,8 +89,8 @@ body,html{
             padding: 5px 20px;
             font-weight: 300;
             margin: auto;
-            // color: $fontColor;
-            color: rgb(119, 97, 1);
+            color: $fontColor;
+            // color: white;
             text-align: justify;
         }
 
@@ -97,7 +98,7 @@ body,html{
             // width: 600px;
             
             button{
-                $buttonColor: rgb(0, 75, 161);
+                $buttonColor: $fontColor;
 
                 display: block;
                 margin: 20px 20px 0;
@@ -126,7 +127,7 @@ body,html{
             align-items: center;
 
             img{
-                width: 600px;
+                width: 500px;
                 display: block;
                 // margin-top: 50px;
             }
@@ -136,12 +137,13 @@ body,html{
 
 .programs{
     min-height: 100vh;
-    background: url('https://cdn.pixabay.com/photo/2016/08/04/16/21/balloons-1569424_1280.png');
+    background: url('pictures/child-page-pictures/programs-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     // background-color: rgba(0, 0, 0, .8);
-    $fontColor: black;
+    $fontColor: rgb(168, 76, 0);
 
     .programs_box{
         min-height: 100vh;
@@ -170,16 +172,17 @@ body,html{
         box-shadow: 2px 2px 10px 1px $fontColor;
         position: relative;
         margin: 0 30px;
-        // background-color: white;
+        background-color: rgba(255, 255, 255, .8);
         color: $fontColor;
-        // h1{
-        //     color: $fontColor;
-        // }
+        
+        h1{
+            color: $fontColor;
+        }
 
         p{
             padding: 0 20px;
             text-align: center;
-            font-size: 14px;
+            font-size: 16px;
         }
 
         button{
@@ -187,7 +190,7 @@ body,html{
             text-transform: uppercase;
             color: $fontColor;
             border: none;
-            border: 2px solid $fontColor;
+            // border: 2px solid $fontColor;
             outline: none;
             position: absolute;
             bottom: 20px;
@@ -198,7 +201,7 @@ body,html{
             width: 250px;
             height: 50px;
             font-weight: bold;
-            background-color: inherit;
+            background-color: rgba(0, 0, 0, 0);
             cursor: pointer;
         }
     }
@@ -237,26 +240,47 @@ body,html{
     min-height: 100%;
     display: flex;
     // background-color: rgba(0, 0, 0, .8);
+    background-image: url('pictures/child-page-pictures/continued-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     .continued_left{
         width: 50%;
+        min-height: 100vh;
+        justify-content: center;
         display: flex;
         align-items: center;
         flex-direction: column;
 
+        .continued_info{
+            width: 600px;
+            height: 600px;
+            background-color: rgba(255, 255, 255, .6);
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0 0 10px 0 rgb(218, 110, 128);
+        }
+
         p{
+            margin: auto;
             width: 80%;
             padding: 10px 0;
-            font-size: 18px;
+            // font-size: 18px;
             text-align: justify;
+            color: rgb(148, 22, 43);
         }
     }
 
     .continued_right{
         width: 50%;
-        display: flex;
+        min-height: 100vh;
         justify-content: center;
+        display: flex;
         align-items: center;
+        flex-direction: column;
         flex-wrap: wrap;
 
         .row{
@@ -268,12 +292,13 @@ body,html{
 
         .icon{
             width: 200px;
-            height: 200px;
+            // height: 200px;
             text-align: center;
         }
 
         .icon i{
             font-size: 60px;
+            color: rgb(148, 22, 43);
         }
     }
 }

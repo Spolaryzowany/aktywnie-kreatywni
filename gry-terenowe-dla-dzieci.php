@@ -11,11 +11,11 @@
 </head>
 <body>
 
-    <nav class="nav">
+    <!-- <nav class="nav">
         <a href="index.php" class="logo">
             <h1>logo</h1>
         </a>
-    </nav>
+    </nav> -->
 
     <section id="mission">
         <div class="left-side">
@@ -36,9 +36,9 @@
         </div>
 
         <div class="right-side">
-            <div class="icon">
+            <!-- <div class="icon">
                 <img src="https://cdn.pixabay.com/photo/2018/02/22/01/04/kids-3171905_960_720.png" alt="">
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -69,11 +69,13 @@
 
     <section class="continued">
         <div class="continued_left">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat neque voluptate nulla quia. Sint sed numquam sapiente dolor est officia, esse, delectus magnam vero, doloremque reiciendis? Maxime, vel dignissimos?</p>
-            <p>Illum hic, dolores quae rem tenetur rerum molestias, deleniti aperiam sapiente ab expedita accusamus! Nam dolorem nulla officia consequatur sunt quisquam perspiciatis ex reiciendis! Doloremque illum beatae et ducimus ex.</p>
-            <p>Quidem incidunt nam nobis atque consequatur officia laboriosam est, voluptatem beatae numquam sunt fugit, laborum deserunt fugiat. Repellendus quasi rerum ab, consequuntur soluta asperiores beatae culpa vitae delectus! Ab, voluptatibus!</p>
-            <p>Dolorum, magni. Quam harum, placeat doloremque consequuntur delectus aut, provident veritatis praesentium amet optio architecto eaque debitis similique nulla quas quo vitae! Neque tempora id est, ex cum mollitia soluta?</p>
-            <p>Fugit quisquam nihil, architecto alias iure ex magni nesciunt asperiores accusantium praesentium a voluptatem natus similique illo amet nemo quidem aliquam! Totam doloremque tempore exercitationem assumenda repellendus. Qui, voluptates cumque?</p>
+            <div class="continued_info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat neque voluptate nulla quia. Sint sed numquam sapiente dolor est officia, esse, delectus magnam vero, doloremque reiciendis? Maxime, vel dignissimos?</p>
+                <p>Illum hic, dolores quae rem tenetur rerum molestias, deleniti aperiam sapiente ab expedita accusamus! Nam dolorem nulla officia consequatur sunt quisquam perspiciatis ex reiciendis! Doloremque illum beatae et ducimus ex.</p>
+                <p>Quidem incidunt nam nobis atque consequatur officia laboriosam est, voluptatem beatae numquam sunt fugit, laborum deserunt fugiat. Repellendus quasi rerum ab, consequuntur soluta asperiores beatae culpa vitae delectus! Ab, voluptatibus!</p>
+                <p>Dolorum, magni. Quam harum, placeat doloremque consequuntur delectus aut, provident veritatis praesentium amet optio architecto eaque debitis similique nulla quas quo vitae! Neque tempora id est, ex cum mollitia soluta?</p>
+                <p>Fugit quisquam nihil, architecto alias iure ex magni nesciunt asperiores accusantium praesentium a voluptatem natus similique illo amet nemo quidem aliquam! Totam doloremque tempore exercitationem assumenda repellendus. Qui, voluptates cumque?</p>
+            </div>
         </div>
         <div class="continued_right">
             <div class="row">

@@ -13,20 +13,24 @@ body, html {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999; }
+  z-index: 9999;
+  box-shadow: 0 1px 3px 0 white; }
   .nav .logo h1 {
     width: 150px;
     text-align: center;
     color: black;
     float: left;
     margin-left: 40px;
-    padding-bottom: 40px;
-    background-color: white; }
+    padding: 15px 0; }
 
 #mission {
   min-height: 100%;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  background-image: url("pictures/child-page-pictures/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   #mission .left-side {
     width: 50%;
     min-height: 100%;
@@ -34,11 +38,11 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0); }
+    background-color: rgba(0, 0, 0, 0);
+    order: 2; }
     #mission .left-side .content {
       width: 600px;
-      padding: 20px 20px 40px;
-      box-shadow: 2px 2px 10px 1px #9cad00; }
+      padding: 20px 20px 40px; }
     #mission .left-side h1 {
       font-weight: bold;
       padding: 0 20px 20px;
@@ -46,26 +50,26 @@ body, html {
       width: 600px;
       margin: 0 auto 0;
       font-size: 30px;
-      color: #ff3153; }
+      color: #005070; }
     #mission .left-side p {
       font-size: 16px;
       padding: 5px 20px;
       font-weight: 300;
       margin: auto;
-      color: #776101;
+      color: #005070;
       text-align: justify; }
     #mission .left-side .mission_button button {
       display: block;
       margin: 20px 20px 0;
       background: initial;
-      color: #004ba1;
+      color: #005070;
       border: none;
       outline: none;
       cursor: pointer;
       text-transform: uppercase;
       font-weight: bold;
       padding: 10px 15px;
-      border: 2px solid #004ba1; }
+      border: 2px solid #005070; }
   #mission .right-side {
     width: 50%;
     min-height: 100%;
@@ -76,15 +80,16 @@ body, html {
       justify-content: center;
       align-items: center; }
       #mission .right-side .icon img {
-        width: 600px;
+        width: 500px;
         display: block; }
 
 .programs {
   min-height: 100vh;
-  background: url("https://cdn.pixabay.com/photo/2016/08/04/16/21/balloons-1569424_1280.png");
+  background: url("pictures/child-page-pictures/programs-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
   .programs .programs_box {
     min-height: 100vh;
     display: flex;
@@ -94,7 +99,7 @@ body, html {
     text-transform: uppercase;
     text-align: center;
     padding: 20px 0 40px;
-    color: black; }
+    color: #a84c00; }
   .programs .programs_container {
     display: flex;
     flex-wrap: wrap;
@@ -102,20 +107,22 @@ body, html {
   .programs .programs_container .programs_position {
     width: 300px;
     height: 500px;
-    box-shadow: 2px 2px 10px 1px black;
+    box-shadow: 2px 2px 10px 1px #a84c00;
     position: relative;
     margin: 0 30px;
-    color: black; }
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #a84c00; }
+    .programs .programs_container .programs_position h1 {
+      color: #a84c00; }
     .programs .programs_container .programs_position p {
       padding: 0 20px;
       text-align: center;
-      font-size: 14px; }
+      font-size: 16px; }
     .programs .programs_container .programs_position button {
       font-size: 20px;
       text-transform: uppercase;
-      color: black;
+      color: #a84c00;
       border: none;
-      border: 2px solid black;
       outline: none;
       position: absolute;
       bottom: 20px;
@@ -126,12 +133,12 @@ body, html {
       width: 250px;
       height: 50px;
       font-weight: bold;
-      background-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       cursor: pointer; }
   .programs .programs_more {
     font-size: 20px;
     text-transform: uppercase;
-    color: black;
+    color: #a84c00;
     border: none;
     outline: none;
     margin: 30px auto 0;
@@ -146,7 +153,7 @@ body, html {
       margin: auto;
       content: '';
       width: 0;
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid #a84c00;
       margin-top: 10px;
       transition: .2s linear width; }
     .programs .programs_more:hover::after {
@@ -154,22 +161,40 @@ body, html {
 
 .continued {
   min-height: 100%;
-  display: flex; }
+  display: flex;
+  background-image: url("pictures/child-page-pictures/continued-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
   .continued .continued_left {
     width: 50%;
+    min-height: 100vh;
+    justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column; }
+    .continued .continued_left .continued_info {
+      width: 600px;
+      height: 600px;
+      background-color: rgba(255, 255, 255, 0.6);
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      box-shadow: 0 0 10px 0 #da6e80; }
     .continued .continued_left p {
+      margin: auto;
       width: 80%;
       padding: 10px 0;
-      font-size: 18px;
-      text-align: justify; }
+      text-align: justify;
+      color: #94162b; }
   .continued .continued_right {
     width: 50%;
-    display: flex;
+    min-height: 100vh;
     justify-content: center;
+    display: flex;
     align-items: center;
+    flex-direction: column;
     flex-wrap: wrap; }
     .continued .continued_right .row {
       height: 200px;
@@ -178,10 +203,10 @@ body, html {
       align-items: center; }
     .continued .continued_right .icon {
       width: 200px;
-      height: 200px;
       text-align: center; }
     .continued .continued_right .icon i {
-      font-size: 60px; }
+      font-size: 60px;
+      color: #94162b; }
 
 @media screen and (max-width: 1200px) {
   #mission {
